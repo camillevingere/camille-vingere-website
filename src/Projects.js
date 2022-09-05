@@ -8,9 +8,9 @@ import {
   Fade,
   Grid,
   Hidden,
-  makeStyles,
   Typography,
-} from "@material-ui/core";
+} from "@mui/material";
+import makeStyles from "@mui/styles/makeStyles";
 import { RepoForkedIcon, RepoIcon, StarIcon } from "@primer/octicons-react";
 import Image from "next/image";
 import { useRef } from "react";

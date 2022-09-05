@@ -3,14 +3,14 @@ import {
   Fade,
   Grid,
   Hidden,
-  makeStyles,
   Tooltip,
   Typography,
   useMediaQuery,
   useTheme,
   Zoom,
-} from "@material-ui/core";
-import Cancel from "@material-ui/icons/Cancel";
+} from "@mui/material";
+import makeStyles from "@mui/styles/makeStyles";
+import { Cancel } from "@mui/icons-material";
 import clsx from "clsx";
 import Image from "next/image";
 import { useRef } from "react";
