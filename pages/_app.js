@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import Head from "next/head";
-import { MuiThemeProvider, useMediaQuery, CssBaseline } from "@mui/material";
+import CssBaseline from "@mui/material/CssBaseline";
+import { ThemeProvider } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import { darkTheme, lightTheme } from "../src/theme";
 
 export default function MyApp({ Component, pageProps }) {
@@ -29,10 +31,10 @@ export default function MyApp({ Component, pageProps }) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
-      <MuiThemeProvider theme={theme}>
+      <ThemeProvider theme={theme}>
         <CssBaseline />
         <Component {...pageProps} setTheme={setTheme} />
-      </MuiThemeProvider>
+      </ThemeProvider>
     </React.Fragment>
   );
 }
