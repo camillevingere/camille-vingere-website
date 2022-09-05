@@ -6,13 +6,13 @@ import {
   Fade,
   Grid,
   Hidden,
+  makeStyles,
   Typography,
   useMediaQuery,
   useTheme,
-} from "@mui/material";
-import makeStyles from "@mui/styles/makeStyles";
+} from "@material-ui/core";
 import Image from "next/image";
-import { DateRange, LocationCity } from "@mui/icons-material";
+import { DateRange, LocationCity } from "@material-ui/icons";
 import data from "../data.json";
 import { useRef } from "react";
 import useAnimate from "./useAnimate";

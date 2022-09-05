@@ -1,11 +1,16 @@
-import { Grid, Typography, Tooltip, Avatar } from "@mui/material";
-import makeStyles from "@mui/styles/makeStyles";
+import {
+  Grid,
+  makeStyles,
+  Typography,
+  Tooltip,
+  Avatar,
+} from "@material-ui/core";
 import data from "../data.json";
 import simpleIcons from "simple-icons";
 import clsx from "clsx";
 import Image from "next/image";
 import { iconify } from "./util";
-import { Cancel } from "@mui/icons-material";
+import Cancel from "@material-ui/icons/Cancel";
 const { about } = data;
 
 const dpx = about.social.length * 10 - 2;

@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import Head from "next/head";
-import { MuiThemeProvider, useMediaQuery, CssBaseline } from "@mui/material";
+import {
+  MuiThemeProvider,
+  useMediaQuery,
+  CssBaseline,
+} from "@material-ui/core";
 import { darkTheme, lightTheme } from "../src/theme";
 
 export default function MyApp({ Component, pageProps }) {

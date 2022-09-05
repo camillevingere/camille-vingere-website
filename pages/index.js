@@ -3,12 +3,12 @@ import {
   AppBar,
   Container,
   IconButton,
+  makeStyles,
   Toolbar,
   Typography,
   useScrollTrigger,
   useTheme,
-} from "@mui/material";
-import makeStyles from "@mui/styles/makeStyles";
+} from "@material-ui/core";
 import Landing from "../src/Landing";
 import Skills from "../src/Skills";
 import Projects from "../src/Projects";
@@ -16,7 +16,7 @@ import Experience from "../src/Experience";
 import About from "../src/About";
 import data from "../data.json";
 import { darkTheme, lightTheme } from "../src/theme";
-import { Brightness4, Brightness7 } from "@mui/icons-material";
+import { Brightness4, Brightness7 } from "@material-ui/icons";
 const { name, projects } = data;
 
 const useStyles = makeStyles((theme) => ({
