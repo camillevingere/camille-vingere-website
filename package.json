@@ -19,6 +19,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "export": "next export",
     "start": "next start -H 0.0.0.0 -p ${PORT:-3001}",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
     "deploy": "npx vercel --prod"
