@@ -28,7 +28,10 @@ export default class MyDocument extends Document {
             href="/siclem.png"
           />
           <link rel="manifest" href="/manifest.webmanifest"></link>
-          {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-3S0X8Y5X3J"></script>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-EVSQC5DRHL"
+          ></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -36,10 +39,10 @@ export default class MyDocument extends Document {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
   
-              gtag('config', 'G-3S0X8Y5X3J');
-              `
+              gtag('config', 'G-EVSQC5DRHL');
+              `,
             }}
-          /> */}
+          />
         </Head>
         <body>
           <Main />
