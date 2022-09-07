@@ -82,6 +82,18 @@
   "experience": {
     "": [
       {
+        "organization": "Siclem",
+        "role": "Chef de projet",
+        "type": "Freelance",
+        "startDate": "2022-09-01",
+        "endDate": "2022-09-01",
+        "city": "Marseille",
+        "state": "Provence-Alpes-Côte d'Azur",
+        "country": "France",
+        "url": "https://www.linkedin.com/company/siclem-in/",
+        "thumbnail": "/siclem.jpeg"
+      },
+      {
         "organization": "Themecloud",
         "role": "Développeur Full Stack",
         "type": "Contrat Professionnel",
